@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Criando seu primeiro script</title>
+  <title>Meu primeiro programa</title>
   <style>
       Body {
-        background-color: pink;
-        color: rgb(50, 3, 41);
+        background-color: rgb(107, 40, 152);
+        color: rgb(231, 208, 35);
         font-family: Arial, Helvetica, sans-serif;
       }
       
       h1 {
-          color: blueviolet;
+          color: rgb(241, 198, 41);
         
       }
   </style>
@@ -22,9 +22,10 @@
   <h1>Hello, World!</h1>
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, aliquid? Nulla temporibus cum provident tenetur! Ex sed mollitia perferendis expedita cum ducimus earum est, aliquid consequatur! Molestias vitae animi facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate molestias dignissimos exercitationem mollitia iste ea corrupti, nam, illum ipsa quasi minus voluptatibus quia temporibus dolorum quaerat dicta culpa corporis consectetur.</p>
   <script>
-      window.alert('Minha primeira mensagem') //Alerta com alguma mensagem
-      window.confirm('Está gostando de JS?') //Janela com botão OK ou Cancel.
-      window.prompt('Qual é seu nome?')// Abrir caixa de texto digitável.
+      var n1 = Number(window.prompt('Digite um número: ')) 
+      var n2 = Number(window.prompt('Digite outro número: '))
+      var s = n1 + n2 
+      window-alert(`A soma entre ${n1} e ${n2} é a ${s}`)
   </script>
 </body>
 </html>
