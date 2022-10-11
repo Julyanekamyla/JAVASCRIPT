@@ -4,30 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hora do dia</title>
+  <title>Contador</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    
-  </style>
-
 </head>
-<body onload="carregar()">
-  <h1>Hora do Dia</h1>
+<body>
+  <h1>Vamos Contar</h1>
   <section>
-    <div id="msg">
-      Aqui vai aparecer a hora.
+    <div id="dados">
+      <p>início: <input type="number" name="inicio" id="inicio">    
+      <input type="button" value="Gerar tabuada"  onclick="contar()">
+    </p>       
     </div>
-    <div id="foto">
-      <img id="imagem" src="amanhecer.png" alt="Amanhecer">
-    </div> 
-    <div id="msg2">
-      Mensagem
-    </div> 
+    
+    <div id="res">
+    Preparando a tabuada!
+    </div>
+    
   </section>
 
   <footer>
     <p>CursoemVideo</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>

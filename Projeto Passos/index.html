@@ -4,30 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vamos contar</title>
+  <title>Contador</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    
-  </style>
-
 </head>
-<body onload="carregar()">
+<body>
   <h1>Vamos Contar</h1>
   <section>
-    <div id="msg">
-      Aqui vai aparecer a hora.
+    <div id="dados">
+      <p>início: <input type="number" name="inicio" id="inicio"></p>
+      <p>Fim: <input type="number" name="fim" id="fim"></p>
+      <p>Passo: <input type="number" name="passo" id="passo"></p>     
+      <input type="button" value="Contar"  onclick="contar()">       
     </div>
-    <div id="foto">
-      <img id="imagem" src="amanhecer.png" alt="Amanhecer">
-    </div> 
-    <div id="msg2">
-      Mensagem
-    </div> 
+    
+    <div id="res">
+    Preparando a contagem!
+    </div>
+    
   </section>
 
   <footer>
     <p>CursoemVideo</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
