@@ -8,4 +8,4 @@ for (let pos in valores){
   console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
 } 
 
-console.log(valores.indexOf(8))
+console.log(valores.indexOf(3))
